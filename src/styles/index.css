@@ -1,3 +1,217 @@
 /* 
     General Styles
 */
+
+/* STYLES OF THE CONTACT */
+
+
+
+.contact-container{
+    width: 1300px;
+    height:fit-content;
+    border: 1px solid #E2E2E3;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.imageContactDirect{
+    height: 190px;
+    width: 190px;
+    border-radius: 60%;
+    margin:12px 0 25px 70px;
+}
+
+.contact-information{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-top: 15px;
+    /* margin-bottom: 30px; */
+}
+.information-name{
+    margin-bottom: 18px;
+    font-family: 'Roboto', sans-serif;;
+
+}
+
+.information-details-location{
+    font-family: 'Space-Mono',monospace;
+    margin-top: -3px;
+
+}
+
+
+.information-details-call{
+    font-family: 'Space-Mono',monospace;
+    margin-top: -3px;
+}
+
+
+.information-details-mail{
+    font-family: 'Space-Mono',monospace;
+    margin-top: -3px;
+}
+
+
+.buttonAddContact{
+    margin-bottom: 20px;
+    margin-top:10px;
+    background-color: green;
+    color: white;
+    padding: 7px;
+    border:1px solid black;
+    box-shadow: 0px 4px;
+}
+.buttonBack{
+    margin-bottom: 20px;
+    margin-top:10px;
+    background-color: rgb(107, 107, 107);
+    color: white;
+    padding: 7px;
+    border:1px solid black;
+    box-shadow: 0px 4px;
+}
+
+.buttonBack:active{
+    box-shadow: 0px 0px 0px;
+    background-color: rgb(51, 51, 51);
+}
+
+.containerButton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonAddContact:active{
+    box-shadow: 0px 0px 0px;
+    background-color: rgb(4, 97, 4);
+    
+}
+.noContacts{
+    margin-top: 20px;
+}
+
+.image-contact{
+    margin-right: 130px;
+}
+
+.icons-contact{
+    display: flex;
+    margin-right: 60px;
+    margin-top: 20px;
+    height: fit-content;
+    
+}
+
+.icons-individuals{
+    margin-right: 20px;
+    background: none;
+    border: none;
+}
+
+
+.icons-individuals:hover{
+    color: #545454;
+}
+.icons-individuals:active{
+    color: #A6A6A6;
+}
+
+
+.locationIcon{
+    font-size: small;
+    color: grey;
+    margin-right: 15px;
+
+}
+
+.phoneIcon{
+    font-size: small;
+    color: grey;
+    margin-right: 30px;
+
+}
+
+.emailIcon{
+    font-size: small;
+    color: grey;
+    margin-right: 30px;
+
+}
+
+
+/* STYLES OF THE ADDCONTACT */
+
+.input-details{
+    width:60%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.container-input-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-FormAddContact{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* .form-card{
+    margin-left: 500px;
+} */
+
+.container-form{
+    margin-left: 600px;
+}
+
+.input-submit{
+    width:60%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    resize: vertical;
+    background-color: rgba(0, 17, 255, 0.918);
+    color: white;
+}
+
+.input-submit:hover{
+    background-color: rgba(0, 0, 255, 0.911);
+}
+
+.input-submit:active{
+    background-color: rgba(0, 0, 255, 0.336);
+
+}
+
+.title-AddanewContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+
+.modal-container{
+    border-radius: 5px;
+}
+
+.buttonClose{
+    border: 1px solid #E2E2E3;
+}
+
+

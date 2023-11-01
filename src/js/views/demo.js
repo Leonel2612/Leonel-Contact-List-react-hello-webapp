@@ -27,7 +27,7 @@ export const Demo = () => {
 									Check store/flux.js scroll to the actions to see the code
 								</p>
 							) : null}
-							<button className="btn btn-success" onClick={() => actions.changeColor(index, "orange")}>
+							<button className="btn btn-success" onClick={() => actions.changeColor(index, "red")}>
 								Change Color
 							</button>
 						</li>

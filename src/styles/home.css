@@ -1,0 +1,56 @@
+
+
+.containerHome{
+    margin: auto;
+    margin-top: 50px;
+    width: 1600px;
+    height:fit-content;
+    border: 1px solid #E2E2E3;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.titleHome{
+    text-align: center;
+}
+
+
+.image-Home{
+    width: 65%;
+    height: 40%;
+    
+}
+.containerImg{
+    margin-left: 27%;
+}
+
+.containerItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.labelInput{
+    margin:25px 0 15px -63px  
+}
+.buttonAgenda{
+    margin-bottom: 20px;
+    margin-top:10px;
+    background-color: green;
+    color: white;
+    padding: 7px;
+    border:1px solid black;
+    box-shadow: 0px 4px;
+    width:20%;
+    
+}
+.buttonAgenda:active{
+    box-shadow: 0px 0px 0px;
+    background-color: rgb(4, 97, 4);
+}
+
+.inputAgenda{
+    width:20%;
+    margin-bottom: 5px;
+}
